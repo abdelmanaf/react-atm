@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 
 class Account extends Component {
+    state = {
+      balance: 0
+    }
   render() {
     return (
       <div className="account">
